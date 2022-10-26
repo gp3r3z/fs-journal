@@ -4,7 +4,7 @@
 
 # What is It ? 
 
-* ControlSystem 
+* Control System 
   + Content tracker 
   + Source Document 
 * Version Control
@@ -37,3 +37,10 @@
   + min-width at least that size , max-width at most that size 
 
 Utility Tags - designed for nich scenarios
+ex: adding padding, margin, etc
+
+CSS Specificity
+one rule to rule them all
+Determines which rule should be applied in the chance that multiple rules are targeting both the same element and property on that element, but assigning different values.
+
+![Alt text](../assets/img/specificity.png "Specificity")
