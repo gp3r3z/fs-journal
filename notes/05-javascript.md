@@ -44,3 +44,22 @@ Chima, Sarah. Var, Let and Const- What’s the Difference? 8 Jan. 2020, dev.to/s
 - Only called when executed
 - values can be passed into functions for use
 - always return a value so no value will return undefined
+
+## Loops
+
+- can be utilize to look through an array
+- using .length property to determine size of an array
+- be sure to start a zero when looping through FOR
+- also ensure index is less than and not equal too
+- use an alias to help clean up naming ex: catArr would create a cat element
+
+- lambda function / anonymous - array functions =>
+
+## Parameter vs Arguments
+
+    - Parameters are used when defining a function values to be supplied ex (param 1, param2 )
+    - Their can be up to 255 parameters
+
+
+
+    - Arguments are values the functions receives at initialization
