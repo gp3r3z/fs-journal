@@ -63,3 +63,22 @@ Chima, Sarah. Var, Let and Const- What’s the Difference? 8 Jan. 2020, dev.to/s
 
 
     - Arguments are values the functions receives at initialization
+
+## Other insight
+
+- function evenOrOdd(num){
+  if(num % 2 == 1 ) {
+  return false
+  }else {
+  return true
+  }
+  }
+
+function evenOrOdd(num){
+return num% 2 == 1 ? 'odd' : 'even'
+
+}
+
+function evenOrOdd(num){
+return num % 2 != 0
+}
