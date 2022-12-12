@@ -1,57 +1,91 @@
 # Single Page Applications with Vue
 
 **1.** What is the entrypoint of an application?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
+    Vue utilizes the main.js file.
+```
+
 **2.** What is the difference between a vue `component` and `page`?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
+    A vue page is like a component but encompasses smaller components that make the UI.
+```
+
 **3.** What feature of Vue can be used to repeat an element using a collection of data?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
+ The v-for feature allows us to forloop through a collection of data.
+```
+
 **4.** What are the three tags that make up a Vue component?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
+    The 3 tags are template, script and style.
+```
+
 **5.** What does the `L` represent in the `SOLID` principles?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
+The 'L' stands for liskov subsititution principle where code's parent classes should be easily substituted with their child classes without the app running into issues.
+```
+
 **6.** Which component in Vue does the vue-router use to mount pages onto?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
+Vue utilizes the router-link to change the URL without reloading the page.
+```
+
 **7.** What is the difference between the `AppState` and the state object within a component?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
+        The state object only is encompassed in the component itself meanwhile Appstate is global.
+```
+
 **9.** What is the responsibility of `Services` in our Vue projects?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
+  Services stills handles our business logic for our Vue projects.
+```
+
 **10.** Which file contains the root element of your Vue project?
+
 <!-- enter you answer in the space below -->
-```
 
 ```
-**11.** The ______ tag is used to alter the styling of your entire Vue project.  Adding the ______ attribute to this tag will limit it to just the component it exists.  Fill in the blank.
-<!-- enter you answer in the space below -->
+App.vue is where the file contains the root element for our vue projects.
 ```
 
+**11.** The **\_\_** tag is used to alter the styling of your entire Vue project. Adding the **\_\_** attribute to this tag will limit it to just the component it exists. Fill in the blank.
+
+<!-- enter you answer in the space below -->
+
 ```
+The 'style' tag ...
+
+Adding the 'scoped'....
+```
+
 **12.** What is the Vue method used to create watchable objects such as `state` or `AppState`?
-<!-- enter you answer in the space below -->
-```
 
+<!-- enter you answer in the space below -->
+
+```
+We can utilzie the computed method to create watchable objects.
 ```
