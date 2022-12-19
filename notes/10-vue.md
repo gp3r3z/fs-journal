@@ -180,10 +180,60 @@ ex : path:'/profile/:profileId'
 route.params.profileId
 route -> useRoute()
 
-
-
 when to use map
 this is a array method so won't work on single objects
 
+Axios is able to attached params via objects
 
-Axios is able to attached params via objects 
+========
+When buiding out the BE makes sure to use the top down approach for tests
+
+fullstack-vue
+reference terminal to see what folder you need to open
+with fullstack-vue we have loaded 2 seperate folders for client and server
+so we need to use the workspace
+
+once done we'll need to reference to the client and server env files
+
+starting the debug consle we'lll need to reference the dropwdown to view any logs
+
+Verify this is working by checking the console to view the 0 token , user info and account.
+
+## Designing data model
+
+Created data based on what you would like your user to have access
+ex: Album
+export const AlbumSchemea = new Schema ({
+title:{type: String, required true },
+coverImg:{type:String}
+})
+
+enum can provide additional sets of value but it needs to be specific values specified
+
+in the schema , ref indicates what the account is referencing for the value
+ex:
+creatorId{Type:schema.types.objectid, ref:'Account'}
+we'll reference the id as the creator id from the account
+
+controller on the server side extends the basecontroller
+
+the super holds the route
+when creating the controller
+\*\* When creating the model add to the schema dbcontext
+
+then follow flow from controller to service layer
+
+once route has b een send we'll
+
+## when testing create a new tab but LEAVE THE TEST ALONE !
+
+ADDING PUT REQUEST AND USING ACCOUNT INFO WILL NEED TO USE middleware (ex Autho o)
+will provide some data
+
+in the response check out the test results. The first section indicates the received
+
+req.userInfo houses the data from the authorized account
+
+When making up
+
+IN the AuthService folder , if we need to do something soonas this loads we can add additional services needed
