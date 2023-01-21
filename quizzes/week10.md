@@ -21,7 +21,7 @@
 <!-- enter you answer in the space below -->
 
 ```
-
+  A void method has no return type. 
 ```
 
 ## Example 1
@@ -42,7 +42,7 @@ abstract class Car
 <!-- enter you answer in the space below -->
 
 ```
-
+ The access modifier is public 
 ```
 
 **6.** In the example what is `string` an indication of?
@@ -50,7 +50,7 @@ abstract class Car
 <!-- enter you answer in the space below -->
 
 ```
-
+ The value keyword 'string' indicates the value being assigned 
 ```
 
 **7.** In the example what is `abstract` preventing?
@@ -58,7 +58,7 @@ abstract class Car
 <!-- enter you answer in the space below -->
 
 ```
-
+The abstract additional is the process to prevent the internal data shown and only allow access to functionality. 
 ```
 
 **8.** In the example what is the purpose of `virtual`?
@@ -66,7 +66,7 @@ abstract class Car
 <!-- enter you answer in the space below -->
 
 ```
-
+ The Virtual keyword is used to allow modification by the child class. 
 ```
 
 **9.** Name four access modifiers:
@@ -74,7 +74,11 @@ abstract class Car
 <!-- enter you answer in the space below -->
 
 ```
-
+   The four most common are : 
+    + Public 
+    + Private
+    + Protected 
+    + internal 
 ```
 
 **10.** If you set a class or method to private, what can access it?
@@ -82,5 +86,6 @@ abstract class Car
 <!-- enter you answer in the space below -->
 
 ```
+Only code in the same class or a class that is derived from that class. 
 
 ```
